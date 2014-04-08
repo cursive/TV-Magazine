@@ -1,0 +1,122 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+ @import "compass/reset";
+
+ *{
+ 	padding:0;
+ 	margin:0;
+ }
+
+ body{
+ 	font-family:  Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 	-webkit-font-smoothing: antialiased;
+ 	padding-left: 48px;
+ 	background: #f1efed;
+
+ }
+
+
+ .headlines{
+ 	width: 400px;
+ 	float: left;
+ 	margin-right: 20px;
+ 	padding-top: 64px;
+ 	
+ 	
+ }
+
+.nav{
+	// position: fixed;
+}
+
+ .article{
+ 	padding-top: 48px;
+ 	float: left;
+ 	width: 640px;
+ }
+ .headline img{
+ 	width: 400px;
+ 	margin-bottom: 36px;
+ }
+
+ .hidden{
+ 	display: none;
+ }
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:none;}
+a{
+	color:#333333;
+}
+
+ .headline{
+ 	.meta{
+		padding-bottom: 18px;
+		clear: both;
+ 	}
+ 	.domain{
+ 		font-size: 12px;
+ 		font-weight: bold;
+ 		text-transform: uppercase;
+ 		float: left;
+ 		width: 200px;
+ 		color: #a7a7a6;
+ 	}
+ 	 .date{
+ 	 	font-size: 12px;
+ 		float: left;
+ 		width: 200px;
+ 		text-align: right;
+ 		color: #a7a7a6;
+ 		// border: 1px solid red;
+ 	}
+ 	.title{
+ 		font-size: 18px;
+ 		font-weight: bold;
+ 		clear: both;
+ 		line-height:24px;
+ 		padding-top: 6px;
+ 		border-top: 1px solid #dddddd;
+ 		color: #5a5959;
+ 		margin-bottom: 6px;
+ 	}
+
+ 	.wordcount{
+ 		margin-bottom: 6px;
+ 		color: #a7a7a6;
+ 	}
+ 	.excerpt{
+ 		margin-bottom: 12px;
+ 		color: #5a5959;
+ 		line-height: 18px;
+ 	}
+
+ }
+
+ .article{
+
+ 	 	h1{
+ 		font-size: 36px;
+ 		font-weight: bold;
+ 		clear: both;
+ 		padding-top: 6px;
+ 		line-height: 36px;
+ 		color: #666666;
+ 		margin-bottom: 18px;
+ 	}
+
+ }
+
+ .article *{
+	font-size: 18px;
+ 		line-height:24px;
+ 		margin-bottom: 12px;
+ 		color: #222222;
+
+
+ }
